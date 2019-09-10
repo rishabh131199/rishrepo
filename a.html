@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Artifika' rel='stylesheet'>
+    <title>Portfolio</title>
+<style>
+  img {
+  border-radius: 50%; 
+  margin-left: 21px;
+  margin-top: -110px;
+  position: absolute;
+}
+    #hed1{
+      margin-left: 370px;
+      font-family: Impact, Charcoal, sans-serif;
+      color: white;
+    }
+    #para1{
+      margin-left: 1130px;
+      margin-top: -50px;
+      position: absolute;
+    }
+
+
+  
+  
+    .div1 {
+  right: 0;
+  left: 0;
+  height: 259px;
+  border: 1px solid grey;
+  background: black;
+}
+
+/*.div2 {
+  width: 259px;
+  height: 900px;
+  border: 1px solid white;
+  background: white;
+}
+.div3 {
+  width: 259px;
+  height: 900px;
+  padding: 300px;
+  border: 1px solid grey;
+  background: white;
+}*/
+.split_right {
+  height: 100%;
+  width: 80%;
+  position: absolute;
+  top: 1;
+  right:  0;
+  background-color: white;
+  font-family: 'Artifika';
+  
+  
+}
+.vl {
+  border-left: 3px solid black;
+  height: 625px;
+  position: absolute;
+  left: 20%;
+  margin-left: -3px;
+  top: 345px;
+}
+.split_left {
+  height: 86.7%;
+  width: 20%;
+  position: absolute;
+  top: 365px;
+  left: 0;
+  background-color: white;
+  font-family: 'Artifika';
+  text-align: center;
+}
+
+#sum{
+margin-left: 20px;
+margin-top: 65px;
+font-family: Impact, Charcoal, sans-serif;
+}
+#sum1{
+font-family: Impact, Charcoal, sans-serif;
+}
+#sum2{
+font-family: Impact, Charcoal, sans-serif;
+margin-left: 20px;
+}
+
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 50px;
+  border-radius: 45%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  position: relative;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay: 0s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 0s;
+}
+.fa:hover {
+    opacity: 0.3;
+}
+.fa-instagram {
+  background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  color: white;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay: 0s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 0s;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay: 0s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 0s;
+}
+
+@keyframes example {
+  0%   {left:-900px; top:0;}
+ /* 10%   {left:-700px; top:0px;}
+  20%  { left:-600px; top:0px;}
+  30%   {left:-500px; top:0px;}
+  40%   {left:-400px; top:0px;}
+  50%  {left:-300px; top:0px;}
+  60%   {left:-200px; top:0px;}
+  70%  { left:-150px; top:0px;}
+  80%   {left:-100px; top:0px;}
+  90%   {left:-50px; top:0px;}*/
+  100% {left:0px; top:0px;}
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 0s;
+}
+.fa-github {
+  background: black;
+  color: white;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 0s;
+}
+#pa{
+  margin-left: 20px;
+}
+.footer {
+   position: absolute;
+   left: 0;
+   bottom: -300px;
+   width: 100%;
+   background-color: black;
+   color: black;
+   
+}
+
+     
+body {
+  
+  background-color: white;
+  background-size: cover;
+  
+}
+</style>
+   
+</head>
+<body>
+    <div class="div1">
+    
+<h1 id = "hed1"; style="font-size:100px;">RISHABH SINGH </h1>
+<p id="para1"> <a href="https://www.instagram.com/__rishaabh__/" target="_blank" class="fa fa-instagram"></a>
+  <a href="https://www.linkedin.com/in/rishabh-singh-4b4810156/" target="_blank" class="fa fa-linkedin"></a>
+  <a href="https://www.facebook.com/rishab.singh.3367174?ref=bookmarks" target="_blank" class="fa fa-facebook"></a>
+  <a href="https://github.com/rishabh131199" target="_blank" class="fa fa-github"></a></p>
+
+
+<img src="i.jpg" alt="Profile Picture" width="200" height="200">
+
+</div>
+
+
+<div class="split_left">
+<h2 id="sum1";  style="font-size:26px;"><br>CONTACT</h2>
+     <p><br>Address<br>205/152 Shastri Nagar<br>Mathura,UP<br>281004<br><br><br><br>Email <a href="mailto:rishabh131199@gmail.com" target="_blank"><p>rishabh131199@gmail.com</p></a><br><br><br>Phone Number<br>8077735036</p> </div>
+     <div class="vl"></div>
+     <div class="split_right">
+       <h3 id="sum";  style="font-size:26px;">SUMMARY</h3>
+       <p id="pa";> I am a programmer, an aspiring engineer, technology geek and an individual with ideas. I have good knowledge of <b>C/C++</b> and I can also program in Java, Python and very basic swift. My interests include android development using <b>flutter</b>, machine learning, writing, socialising with people and reading business novels.</p>
+
+       
+       <h4 id="sum2"; style="font-size:26px;">EXPERIENCE</h4>
+       <p id="pa";>As I am a fresher I only posses one thing in the name of experience which is all the <b>success and failures</b> I have been through, all the guidance I got from my parents, teachers and elders whenever there was a high or low in my life.</p>
+
+       <h4 id="sum2"; style="font-size:26px;">SKILLS</h4>
+      <p id="pa";><b>1.</b>I have five stars in problem solving and C++ on hacker rank(<b>Rank: 80000 in problem solving</b>).<br><b>2.</b>I have done two courses on python from <b>Michigan University</b> on coursera.<br><b>3.</b>I have knowledge of flutter development also.<br><b>4.</b>As this portfolio is made on HTML and CSS so I have some knowledge of that too.<br><b>5.</b>Now I am working hard to dive deeper into the conceps of machine learning also.</p>
+    
+      <h5 id="sum2"; style="font-size:26px;">EDUCATION</h4>
+        <p id="pa";><b>1.</b>I have completed my 10th standard from <b>SACRED HEART CONVENT HIGHER SECONDARY SCHOOL MATHURA</b> and I passed my 12th standard from <b>KANHA MAKHAN PUBLIC SCHOOL MATHURA.</b><br><b>2.</b>Currently I am pursing my BTECH from <b>AJAY KUMAR GARG ENGINEERING COLLEGE GHAZIABAD.</b></p>
+    </div>
+    <div class="footer">
+
+        <p>Footer</p>
+    </div>
+</body>
+</html>
